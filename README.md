@@ -36,15 +36,15 @@ Students can practice and develop:
 
 ### Figure 3.1
 
-![figure3.1](docs/screenshots/figure3.1.png)
+<img src="docs/screenshots/figure3.1.png" width="300">
 
 ### Figure 3.2
 
-![figure3.2](docs/screenshots/figure3.2.png)
+<img src="docs/screenshots/figure3.2.png" width="300">
 
 ### Figure 3.3
 
-![figure3.3](docs/screenshots/figure3.3.png)
+<img src="docs/screenshots/figure3.3.png" width="300">
 
 ---
 
@@ -60,6 +60,8 @@ The focus is not only on academic skills, but also on **practical and social dev
 
 - Python
 - Flet
+- Flutter
+- Dart
 - Firebase
 
 ---
