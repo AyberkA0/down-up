@@ -1,0 +1,45 @@
+[project]
+name = "down-up"
+version = "0.1.0"
+description = ""
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    { name = "AyberkA0", email = "ayberkatalaybusiness@gmail.com" }
+]
+dependencies = [
+    "flet==0.28.3",
+    "flet-audio==0.1.0",
+    "flet-flip-card @ git+https://github.com/AyberkA0/flet-flip-card",
+    "flet-barcode-scanner @ git+https://github.com/AyberkA0/flet-barcode-scanner",
+    
+    "qrcode==8.2",
+    "requests==2.32.4",
+]
+
+[tool.flet]
+org = "com.downup.app"
+product = "Down Up"
+company = "Down Up"
+copyright = "Copyright (C) 2024-2026 by Down Up"
+permissions = ["camera"]
+
+[tool.flet.app]
+path = "src"
+
+[tool.flet.android]
+min_sdk_version = 21
+
+[tool.flet.splash]
+android = false
+
+[tool.poetry]
+package-mode = false
+
+[tool.poetry.group.dev.dependencies]
+flet = {extras = ["all"], version = "0.28.3"}
+
+[tool.uv]
+dev-dependencies = [
+    "flet[all]==0.28.3"
+]
