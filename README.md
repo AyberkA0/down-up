@@ -69,6 +69,7 @@ The focus is not only on academic skills, but also on **practical and social dev
 ## 📂 Project Structure
 
 src/ # Application source code
+
 docs/ # Screenshots and documentation
 
 ---
