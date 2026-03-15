@@ -40,7 +40,7 @@ Students can practice and develop:
 
 ### Figure 3.2
 
-<img src="docs/screenshots/figure3.2.png" width="300">
+<img src="docs/screenshots/figure3.2.jpeg" width="300">
 
 ### Figure 3.3
 
